@@ -239,6 +239,14 @@ a:hover{
     left: 0;
 }
 
+#fit-dress{
+    padding-bottom: 5px;
+}
+
+#price{
+    line-height: 0;
+}
+
 /* Footer Style */
 
 footer{
