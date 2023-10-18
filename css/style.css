@@ -63,16 +63,27 @@ a:visited{
 }
 
 .col{
-    flex-basis: 33%;
-    gap: 5px;
+    width: calc(100% / 3);
 
-    /* Debug */
-    /* background-color: gray;
-    min-height: 100px;   */
+    min-height: 700px;
 }
 
 .col img{
     width: 450px;
+}
+
+.image1{
+    background-image: url(../img/1.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image1:hover{
+    background-image: url(../img/1b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
