@@ -203,6 +203,31 @@ a:visited{
     text-decoration: line-through;
 }
 
+
+.label{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.label-eco{
+    position: absolute;
+    bottom: 20px;
+    left: 65px;
+    background-color: green;
+    padding: 5px 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.label-left{
+    left: 0;
+}
+
 /* Footer Style */
 
 footer{
@@ -228,29 +253,15 @@ footer{
     margin-bottom: 10px;
 }
 
-.label{
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    background-color: red;
-    padding: 5px 10px;
-    font-size: 17px;
-    color: white;
+#srl{
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.label-eco{
-    position: absolute;
-    bottom: 20px;
-    left: 65px;
-    background-color: green;
-    padding: 5px 10px;
-    font-size: 17px;
-    color: white;
+#socials span{
+    padding: 0 5px;
 }
 
-.label-left{
-    left: 0;
-}
 
 
 
