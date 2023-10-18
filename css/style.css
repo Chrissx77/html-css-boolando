@@ -14,13 +14,17 @@ body {
 
 /* Header Style */
 nav{
-    background-color: rgb(209, 149, 37);
+    background-color: rgb(206, 131, 33);
+    font-size: 15px;
 }
 
 .container{
-    display: flex;
     width: 80%;
     margin: 0 auto;
+}
+
+.info-nav{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -28,6 +32,7 @@ nav{
 ul{
     display: flex;
     list-style: none;
+    padding-left: 0;
 }
 
 li{
@@ -49,3 +54,31 @@ a:visited{
 .white{
     color: white;
 }
+
+/* Main Style */
+.row{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.col{
+    flex-basis: 33%;
+    gap: 5px;
+
+    /* Debug */
+    /* background-color: gray;
+    min-height: 100px;   */
+}
+
+.col img{
+    width: 450px;
+}
+
+
+
+
+
+
+
+
