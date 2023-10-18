@@ -47,6 +47,10 @@ a:visited{
     color: rgb(255, 255, 255);
 }
 
+a:hover{
+    color: dimgray;
+}
+
 .image-logo img{
     width: 100px;
 }
