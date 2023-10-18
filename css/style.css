@@ -58,14 +58,27 @@ a:visited{
 /* Main Style */
 .row{
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.mt{
     margin-top: 30px;
 }
 
 .col{
     width: calc(100% / 3);
-
     min-height: 700px;
+    position: relative;
+}
+
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
 }
 
 .col img{
@@ -85,6 +98,33 @@ a:visited{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.info-dress{
+    flex-basis: 33%;
+    text-align: left;   
+}
+
+#brand{
+    font-size: 17px;
+}
+
+#fit-dress{
+    font-weight: bold;
+}
+
+#discount{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#no-discount{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
 
 
 
