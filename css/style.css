@@ -81,6 +81,11 @@ a:visited{
     padding: 10px;
 }
 
+.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .col img{
     width: 450px;
 }
