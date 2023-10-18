@@ -92,8 +92,78 @@ a:visited{
     background-position: center;
 }
 
+.image2{
+    background-image: url(../img/2.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3{
+    background-image: url(../img/3.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image4{
+    background-image: url(../img/4.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image5{
+    background-image: url(../img/5.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image6{
+    background-image: url(../img/6.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .image1:hover{
     background-image: url(../img/1b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image2:hover{
+    background-image: url(../img/2b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3:hover{
+    background-image: url(../img/3b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image4:hover{
+    background-image: url(../img/4b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image5:hover{
+    background-image: url(../img/5b.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image6:hover{
+    background-image: url(../img/6b.webp);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -133,7 +203,8 @@ a:visited{
 footer{
     background-color: rgb(48, 48, 48);
     width: 100%;
-    min-height: 125px;
+    min-height: 100px;
+    font-size: 15px;
 }
 
 .col-foot{
@@ -145,11 +216,21 @@ footer{
 }
 
 .height-all{
-    height: 125px;
+    height: 100px;
 }
 
 .col-foot > div{
     margin-bottom: 10px;
+}
+
+.label{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 17px;
+    color: white;
 }
 
 
